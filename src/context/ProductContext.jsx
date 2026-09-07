@@ -13,7 +13,7 @@ import { db } from "../firebase";
 import {
   categories,
   default as initialProducts,
-} from "../data/initialProducts.jsx";
+} from "../data/initialProducts.js";
 
 const ProductContext = createContext();
 
