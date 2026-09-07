@@ -1,0 +1,155 @@
+.customer-login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #f7f7f5;
+}
+
+.customer-login-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 45px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+}
+
+.customer-login-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.customer-login-brand {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #111111;
+}
+
+.customer-login-header h1 {
+  margin: 0 0 12px;
+  font-size: 32px;
+  color: #111111;
+}
+
+.customer-login-header p {
+  margin: 0;
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.customer-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.customer-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.customer-form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.customer-form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 15px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #222222;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.customer-form-group input:focus {
+  border-color: #111111;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
+}
+
+.customer-form-group input::placeholder {
+  color: #aaaaaa;
+}
+
+.customer-login-button {
+  width: 100%;
+  margin-top: 5px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #111111;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.customer-login-button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.customer-login-error {
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #fff1f1;
+  color: #c62828;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.customer-login-footer {
+  margin-top: 25px;
+  padding-top: 22px;
+  border-top: 1px solid #eeeeee;
+  text-align: center;
+}
+
+.customer-login-footer p {
+  margin: 0 0 16px;
+  color: #777777;
+  font-size: 14px;
+}
+
+.customer-login-footer a {
+  color: #111111;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.customer-login-footer a:hover {
+  text-decoration: underline;
+}
+
+.back-to-store {
+  display: inline-block;
+  font-size: 13px;
+}
+
+@media (max-width: 550px) {
+  .customer-login-page {
+    padding: 25px 15px;
+  }
+
+  .customer-login-card {
+    padding: 30px 22px;
+    border-radius: 15px;
+  }
+
+  .customer-login-header h1 {
+    font-size: 26px;
+  }
+}
